@@ -8,12 +8,12 @@ Basically this is a copy of the original PHP package. I made this modified versi
 
 ## Installation
 
-1. Create a backup of the original PHP package:
+Create a backup of the original PHP package:
 
 	cd /Users/[Your User]/Library/Application\ Support/Sublime\ Text\ 2
 	mv Packages/PHP PHP.bak
 
-2. Clone this package from GitHub:
+Clone this package from GitHub:
 
 	git clone https://github.com/florianeckerstorfer/sublime-php ./Packages/PHP
 
