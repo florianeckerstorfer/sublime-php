@@ -1,6 +1,5 @@
 <snippet>
-    <content><![CDATA[else
-{
+    <content><![CDATA[else {
 	${0:# code...}
 }]]></content>
     <tabTrigger>else</tabTrigger>

@@ -1,6 +1,5 @@
 <snippet>
-    <content><![CDATA[do
-{
+    <content><![CDATA[do {
 	${0:# code...}
 } while (${1:$a <= 10});]]></content>
     <tabTrigger>do</tabTrigger>
