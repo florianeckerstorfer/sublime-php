@@ -6,17 +6,6 @@
 	<string>TODO:
 • Try to improve parameters list syntax – scope numbers, ‘=’, ‘,’ and possibly be intelligent about entity ordering
 • Is meta.function-call the correct scope? I've added it to my theme but by default it's not highlighted</string>
-	<key>fileTypes</key>
-	<array>
-		<string>php</string>
-		<string>php3</string>
-		<string>php4</string>
-		<string>php5</string>
-		<string>phpt</string>
-		<string>phtml</string>
-		<string>aw</string>
-		<string>ctp</string>
-	</array>
 	<key>firstLineMatch</key>
 	<string>^#!.*(?&lt;!-)php[0-9]{0,1}\b</string>
 	<key>foldingStartMarker</key>
@@ -38,7 +27,7 @@
 				<key>2</key>
 				<dict>
 					<key>name</key>
-					<string>meta.embedded.line.empty.html</string>
+					<string>source.php.embedded.line.empty.html</string>
 				</dict>
 				<key>3</key>
 				<dict>
@@ -147,7 +136,7 @@
 						</dict>
 					</dict>
 					<key>name</key>
-					<string>meta.embedded.block.html</string>
+					<string>source.php.embedded.block.html</string>
 					<key>patterns</key>
 					<array>
 						<dict>
@@ -192,7 +181,7 @@
 				</dict>
 			</dict>
 			<key>name</key>
-			<string>meta.embedded.line.html</string>
+			<string>source.php.embedded.line.html</string>
 			<key>patterns</key>
 			<array>
 				<dict>
@@ -3739,7 +3728,7 @@
 		</dict>
 	</dict>
 	<key>scopeName</key>
-	<string>text.html.php</string>
+	<string>source.php</string>
 	<key>uuid</key>
 	<string>22986475-8CA5-11D9-AEDD-000D93C8BE28</string>
 </dict>
