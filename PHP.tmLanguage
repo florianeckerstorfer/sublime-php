@@ -2404,6 +2404,42 @@
 					<string>keyword.other.phpdoc.php</string>
 				</dict>
 				<dict>
+					<key>match</key>
+					<string>\@(MongoDB\\(AlsoLoad|B(in(Custom|Func|MD5|UUID)?|oolean)|Collection|D(ate|is(criminator(Field|Map)|tance)|ocument)|Embed(Many|One|dedDocument)|F(ield|ile|loat)|Hash|I(d|n(crement|dex|t|heritanceType))|Key|MappedSuperclass|NotSaved|P(ost(Load|Persist|Remove|Update)|re(Load|Persist|Remove|Update))|Reference(Many|One)|String|Timestamp|UniqueIndex))\b</string>
+					<key>name</key>
+					<string>keyword.other.phpdoc.php</string>
+				</dict>
+				<dict>
+					<key>match</key>
+					<string>\@(ORM\\(C(olumn|hangeTrackingPolicy)|Discriminator(Column|Map)|Entity|GeneratedValue|HasLifecycleCallbacks|I(d|n(dex|heritanceType))|Join(Column|Columns|Table)|Ma(nyTo(One|Many)|ppedSuperclass)|O(neTo(One|Mnay)|rderBy)|P(ost(Load|Persist|Remove|Update)|re(Persist|Remove|Update))|SequenceGenerator|Table|UniqueConstraint|Version))\b</string>
+					<key>name</key>
+					<string>keyword.other.phpdoc.php</string>
+				</dict>
+				<dict>
+					<key>match</key>
+					<string>\@(Assert\\(All|C(allback|hoice|ollection|ountry)|Date(Time)?|Email|F(alse|ile)|I(mage|p)|L(anguage|ength|ocale)|M(in|ax)(Length)?|(Not)?(Blank|Null)|Regex|T(ime|rue|ype)|U(niqueEntity|rl)|Valid))\b</string>
+					<key>name</key>
+					<string>keyword.other.phpdoc.php</string>
+				</dict>
+				<dict>
+					<key>match</key>
+					<string>\@(Gedmo\\(S(lug|oftDeleteable)|T(imestampable|ranslatable)))\b</string>
+					<key>name</key>
+					<string>keyword.other.phpdoc.php</string>
+				</dict>
+				<dict>
+					<key>match</key>
+					<string>\@(BraincraftedAssert\\(Enum))\b</string>
+					<key>name</key>
+					<string>keyword.other.phpdoc.php</string>
+				</dict>
+				<dict>
+					<key>match</key>
+					<string>\@(assert|backup(Globals|StaticAttributes)|co(deCoverageIgnore(Start|End)|vers)|d(ataProvider|epends)|expectedException(Code|Message)?|group|outputBuffering|run(TestsInSeparateProcesses|InSeparateProcess)|t(est(dox)?|icket))\b</string>
+					<key>name</key>
+					<string>keyword.other.phpdoc.php</string>
+				</dict>
+				<dict>
 					<key>captures</key>
 					<dict>
 						<key>1</key>
