@@ -21,7 +21,12 @@ Clone this package from GitHub:
 
 This package uses the following syntax for blocks:
 
-	if (condition)
-	{
+	if (condition) {
 		// code
 	}
+
+## Snippets
+
+- `iaex`*TAB*: `new InvalidArgumentException('message');`
+- tbc
+
