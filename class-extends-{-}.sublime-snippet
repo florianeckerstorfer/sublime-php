@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[class ${1:ClassName} extends ${2:AnotherClass}
+{
+	${0:# code...}
+}
+]]></content>
+    <tabTrigger>cle</tabTrigger>
+    <scope>source.php</scope>
+    <description>class … extends …</description>
+</snippet>
