@@ -2428,7 +2428,13 @@
 				</dict>
 				<dict>
 					<key>match</key>
-					<string>\@(Assert\\(All|C(allback|hoice|ollection|ountry)|Date(Time)?|Email|F(alse|ile)|I(mage|p)|L(anguage|ength|ocale)|M(in|ax)(Length)?|(Not)?(Blank|Null)|Regex|T(ime|rue|ype)|U(niqueEntity|rl)|Valid))\b</string>
+					<string>\@(Assert\\(All|C(allback|hoice|ollection|ountry)|Date(Time)?|Email|F(alse|ile)|I(mage|p)|L(anguage|ength|ocale)|M(in|ax)(Length)?|(Not)?(Blank|Null)|Regex|T(ime|rue|ype)|Url|Valid))\b</string>
+					<key>name</key>
+					<string>keyword.other.phpdoc.php</string>
+				</dict>
+				<dict>
+					<key>match</key>
+					<string>\@(UniqueEntity)\b</string>
 					<key>name</key>
 					<string>keyword.other.phpdoc.php</string>
 				</dict>
